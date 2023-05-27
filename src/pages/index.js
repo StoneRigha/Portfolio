@@ -18,6 +18,7 @@ import web4 from '../public/web4.png'
 import web5 from '../public/web5.png'
 import web6 from '../public/web6.png'
 import { useState } from 'react'
+import logo from '../public/download.svg'
 
 
 
@@ -29,16 +30,16 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""} >
       <title>Stonified</title>
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900git'>
+        <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
             <section className='min-h-screen'>
               <nav className='py-10 mb-12 flex justify-between'> 
-                <h1 className='text-xl text-black'>Developed by Cdr_Stone</h1>
+                <h1 className='text-xl text-black dark:text-white'><Image src={logo} alt='logo' /></h1>
                 <ul className='flex items-center'>
                   <li>
-                    <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black'/>
+                    <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl text-black dark:text-white'/>
                   </li>
                   <li>
-                    <a className='bg-gradient-to-r from-cyan-500 to teal-500 text-white px-4 py-2 rounded-md ml-8' href="">Resume</a>
+                    <a className='bg-gradient-to-r from-cyan-500 to teal-500 text-black px-4 py-2 rounded-md ml-8 dark:text-white' href="">Resume</a>
                     </li>
                 </ul>
               </nav>
@@ -46,14 +47,14 @@ export default function Home() {
               {/* front section */}
               <div className='text-center p-10'>
                 <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl' >Livingstone Righa</h2>
-                <h3 className='text-2xl text-black py-2 md:text-3xl'>Fullstack Web Developer</h3>
-                <p className='text-gray-800 text-md py-5 leading-8 md:text-xl max-w-xl mx-auto'>
+                <h3 className='text-2xl text-black py-2 md:text-3xl dark:text-white'>Fullstack Web Developer</h3>
+                <p className='text-gray-800 text-md py-5 leading-8 md:text-xl max-w-xl mx-auto dark:text-white'>
                   Freelancer providing services for programming and content designing needs.
                   <BsFillEmojiSmileFill className='cursor-pointer text-2xl text-yellow-300'/>
                   Join me om my socials and lets get cracking
                 </p>
               </div>
-              <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+              <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
                 <AiFillTwitterCircle className='' />
                 <AiFillLinkedin className='' />
                 <AiFillFacebook className='' />
@@ -76,7 +77,7 @@ export default function Home() {
                   < Image src={design} alt='image' width={100} height={100} />
                   <h3 className='text-lg font-medium pt-8 pb-2'>Designs</h3>
                   <p className='py-2 text-black'>
-                    Elegant designs suited for your needs
+                    Elegant mockup designs suited for your needs
                   </p>
                   <h4 className='py-4 text-teal-600'>Design tools I use</h4>
                   <p className='text-gray-800 py-1'>Adobe Photoshop</p>
@@ -87,7 +88,7 @@ export default function Home() {
                   < Image src={code} alt='image' width={100} height={100} />
                   <h3 className='text-lg font-medium pt-8 pb-2'>Designs</h3>
                   <p className='py-2 text-black'>
-                    Elegant designs suited for your needs
+                    As a developer
                   </p>
                   <h4 className='py-4 text-teal-600'>Languages and framework that I use</h4>
                   <p className='text-gray-800 py-1'>Next Js</p>
@@ -98,12 +99,12 @@ export default function Home() {
                   < Image src={consulting} alt='image' width={100} height={100} />
                   <h3 className='text-lg font-medium pt-8 pb-2'>Designs</h3>
                   <p className='py-2 text-black'>
-                    Elegant designs suited for your needs
+                    Talk of my engineering skills
                   </p>
-                  <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-                  <p className='text-gray-800 py-1'>Adobe Photoshop</p>
-                  <p className='text-gray-800 py-1'>Adobe Illustrator</p>
-                  <p className='text-gray-800 py-1'>Figma</p>
+                  <h4 className='py-4 text-teal-600'>Engennering tools I use</h4>
+                  <p className='text-gray-800 py-1'>Git</p>
+                  <p className='text-gray-800 py-1'>Docker</p>
+                  <p className='text-gray-800 py-1'>kubernetes</p>
                 </div>
               </div>
             </section>
