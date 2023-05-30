@@ -53,7 +53,7 @@ export default function Home() {
                 <p className='text-gray-800 text-md py-5 leading-8 md:text-xl max-w-xl mx-auto dark:text-white'>
                   Freelancer providing services for programming and content designing needs.
                   <BsFillEmojiSmileFill className='cursor-pointer text-2xl text-yellow-300'/>
-                  Join me om my socials and lets get cracking
+                  Join me on my socials and lets get cracking
                 </p>
               </div>
               <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
@@ -72,8 +72,8 @@ export default function Home() {
             <section>
               <div>
                 <h3 className='text-3xl text-black py-12'>Services I offer</h3>
-                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of my journey as a web developer, I have done remote work for <span className='text-teal-500'>agencies</span> consulted for <span className='text-teal-500'>start ups</span> and collaborated with talented people to create digital products for both digital and consumer use.</p>
-                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including programming of desktop and mobile systems, database managment,and web deployment</p>
+                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of my journey as a web developer, I have done remote work for <span className='text-teal-500'>agencies</span>, consulted for <span className='text-teal-500'>start ups</span>, and collaborated with talented people to create digital products for both digital and consumer use.</p>
+                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including programming of desktop and mobile systems, database managment, and web deployment</p>
               </div>
               <div className='lg:flex gap-10'>
                 <div className='text-center shadow-lg pd-10 rounded-xl my-10'>
