@@ -7,6 +7,7 @@ import {
   AiFillLinkedin, 
   AiFillFacebook,
   AiFillGithub,
+  AiFillInstagram,
 } from 'react-icons/ai'
 import ras from '../public/Avatar.png'
 import design from '../public/design.png'
@@ -57,10 +58,22 @@ export default function Home() {
                 </p>
               </div>
               <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-                <AiFillTwitterCircle className='' />
-                <AiFillLinkedin className='' />
-                <AiFillFacebook className='' />
-                <AiFillGithub className='' />
+                  <a href="http://twitter.com/Us3r_N0t_Found">
+                    <AiFillTwitterCircle className='' />
+                  </a>
+                  <a href="http://www.linkedin.com/in/livingstone-righa-a4747867/">
+                    <AiFillLinkedin className='' />
+                  </a>
+                  <a href="http://www.facebook.com/stonestona.stone">
+                    <AiFillFacebook className='' />                  
+                  </a>
+                  <a href="http://www.github.com/StoneRigha">
+                    <AiFillGithub className='' />
+                  </a>
+                  <a href="http://www.instagram.com/cdr_570n3">
+                    <AiFillInstagram className='' />
+                  </a>
+                
               </div>
               <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt=20 overflow-hidden md:h-96 md:w-96'>
                 <Image className='' src={ras} alt='image' layout='fill' objectFit='cover'  />
