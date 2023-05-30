@@ -64,9 +64,7 @@ export default function Home() {
                   <a href="http://www.linkedin.com/in/livingstone-righa-a4747867/">
                     <AiFillLinkedin className='' />
                   </a>
-                  <a href="http://www.facebook.com/stonestona.stone">
-                    <AiFillFacebook className='' />                  
-                  </a>
+              
                   <a href="http://www.github.com/StoneRigha">
                     <AiFillGithub className='' />
                   </a>
