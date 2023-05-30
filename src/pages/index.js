@@ -57,7 +57,7 @@ export default function Home() {
                   Join me on my socials and lets get cracking
                 </p>
               </div>
-              <div className='text-5xl flex justify-center gap-14 py-3 text-gray-600 dark:text-gray-400'>
+              <div className='text-5xl flex justify-center gap-13 py-3 text-gray-600 dark:text-gray-400'>
                   <a href="http://twitter.com/Us3r_N0t_Found">
                     <AiFillTwitterCircle className='' />
                   </a>
