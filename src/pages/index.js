@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
-import {BsFillEmojiSmileFill} from 'react-icons/bs'
 import {
   AiFillTwitterCircle, 
   AiFillLinkedin, 
@@ -53,7 +52,7 @@ export default function Home() {
                 <h3 className='text-2xl text-black py-2 md:text-3xl dark:text-white'>Fullstack Web Developer</h3>
                 <p className='text-gray-800 text-md py-5 leading-8 md:text-xl max-w-xl mx-auto dark:text-white'>
                   Freelancer providing services for programming and content designing needs.
-                  <BsFillEmojiSmileFill className='cursor-pointer text-2xl text-yellow-300'/>
+                
                   Join me on my socials and lets get cracking
                 </p>
               </div>
