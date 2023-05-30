@@ -32,7 +32,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""} >
       <title>Stonified</title>
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <main className='bg-white text-black text-md py-5 leading-8 md:text-xl px-10 md:px-20 lg:px-40 dark:bg-gray-800'>
+        <main className='bg-white text-black text-md py-5 leading-8 md:text-xl px-10 md:px-20 lg:px-40 dark:bg-gray-700'>
             <section className='min-h-screen'>
               <nav className='py-10 mb-12 flex justify-between'> 
                 <h1 className='text-xl text-black dark:text-white'><Image src={logo} alt='logo' /></h1>
