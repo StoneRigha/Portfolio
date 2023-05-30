@@ -72,7 +72,7 @@ export default function Home() {
             <section>
               <div>
                 <h3 className='text-3xl text-black py-12'>Services I offer</h3>
-                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of my journey as a web developer, I have done remote work for<span className='text-teal-500'>agencies</span>consulted for<span className='text-teal-500'>start ups</span>and collaborated with talented people to create digital products for both digital and consumer use.</p>
+                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>Since the beginning of my journey as a web developer, I have done remote work for <span className='text-teal-500'>agencies</span> consulted for <span className='text-teal-500'>start ups</span> and collaborated with talented people to create digital products for both digital and consumer use.</p>
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including programming of desktop and mobile systems, database managment,and web deployment</p>
               </div>
               <div className='lg:flex gap-10'>
@@ -119,8 +119,8 @@ export default function Home() {
                 <h3 className='text-3xl text-black py-1'>Portfolio</h3>
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I am a Full Stack Software Developer using <span className='text-teal-500'>LAMPP</span>(Linux, Apache, MySQL, PHP, & Python) Stack for my whole development process. As a Fromt End developer I am convient with <span className='text-teal-500'>HTML 5, CSS 3, Javascript, Bootstrap 4, Semantics UI, Tailwind CSS, Vue Js, and React</span>. Also I am very convinient with Back End Development as well having my strong hold on <span className='text-teal-500'>PHP and Laravel a framework by PHP</span>.</p>
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>As a <span className='text-teal-500'>Developer</span>, I transform high-fidelity mockup designs by creating the front end, back end, and database of a website, web application, and mobile applications</p>
-                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>As an <span className='text-teal-500'>Engineer</span>, I can deploy a complete product utilizingcloud services, virtulization, and containerization with Docker, Kubernetes, and CI/CD using Agile methodology and DevOps approach.</p>
-                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>I offer from a wide range of services, including programming of desktop and mobile systems, database managment,and web deployment</p>
+                <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>As an <span className='text-teal-500'>Engineer</span>, I can deploy a complete product utilizing cloud services, virtulization, and containerization with Docker, Kubernetes, and CI/CD using Agile methodology and DevOps approach.</p>
+              
               </div>
               <div className='flex flex-col gap-10 py-10 lg:flex-row LG:flex-wrap'>
                 <div className='basis-1/3 flex-1'> <Image src={web1} alt='' className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/> </div>
